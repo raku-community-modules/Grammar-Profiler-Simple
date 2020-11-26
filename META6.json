@@ -2,11 +2,11 @@
     "perl"          : "6.*",
     "name"          : "Grammar::Profiler::Simple",
     "version"       : "0.02",
-    "description"   : "Simple rule profiling for Perl 6 grammars",
+    "description"   : "Simple rule profiling for Raku grammars",
     "build-depends" : [ ],
     "license"       : "Artistic-2.0",
     "depends"       : [ ],
-    "source-url"    : "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
+    "source-url"    : "git://github.com/raku-community-modules/Grammar-Profiler-Simple.git",
     "tags"          : [ "Grammar", "Profiler" ],
     "authors"       : [ "Jonathan Scott Duff <duff@pobox.com>" ],
     "test-depends"  : [ "Test" ],
@@ -15,7 +15,7 @@
     },
     "support"       : {
         "email"  : "duff@pobox.com",
-        "source" : "https://github.com/perlpilot/Grammar-Profiler-Simple.git",
-        "bugtracker" : "https://github.com/perlpilot/Grammar-Profiler-Simple/issues"
+        "source" : "https://github.com/raku-community-modules/Grammar-Profiler-Simple.git",
+        "bugtracker" : "https://github.com/raku-community-modules/Grammar-Profiler-Simple/issues"
     }
 }
