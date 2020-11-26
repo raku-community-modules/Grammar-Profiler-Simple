@@ -1,5 +1,5 @@
 # Grammar::Profiler::Simple
-This module provides a simple profiler for Perl 6 grammars. To enable
+This module provides a simple profiler for Raku grammars. To enable
 profiling simply add
 
     use Grammar::Profiler::Simple;
