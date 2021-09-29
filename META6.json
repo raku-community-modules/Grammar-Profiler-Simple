@@ -1,7 +1,7 @@
 {
     "perl"          : "6.*",
     "name"          : "Grammar::Profiler::Simple",
-    "version"       : "0.02",
+    "version"       : "0.03",
     "description"   : "Simple rule profiling for Raku grammars",
     "build-depends" : [ ],
     "license"       : "Artistic-2.0",
