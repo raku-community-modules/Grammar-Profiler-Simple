@@ -10,12 +10,12 @@ my class ProfiledGrammarHOW is Metamodel::GrammarHOW {
         $name eq any(« parse CREATE Bool defined MATCH Stringy Str WHERE orig BUILD DESTROY ») ??
             $meth !!
             -> $c, |args {
-                my $grammar = $obj.^name;
+                my $grammar = $c.^name;
                 %timing{$grammar} //= {};                   # Vivify grammar hash
                 %timing{$grammar}{$meth.name} //= {};       # Vivify method hash
                 my %t := %timing{$grammar}{$meth.name};
                 my $start = now;
-                my $result := $meth($obj, |args);
+                my $result := $meth($c, |args);
                 %t<time> += now - $start;
                 %t<calls>++;
                 $result
