@@ -143,11 +143,11 @@ specified grammar and rule only.  What is returned is always a C<Hash>.
 
 =begin code :lang<raku>
 
-my %t := reset-timing;                       # %<grammar><rules><calls|time>
+my %t := get-timing;                       # %<grammar><rules><calls|time>
 
-my %tg := reset-timing(MyGrammar);           # %<rules><calls|time>
+my %tg := get-timing(MyGrammar);           # %<rules><calls|time>
 
-my %tgr := reset-timing(MyGrammar, MyRule);  # %<calls|time>
+my %tgr := get-timing(MyGrammar, MyRule);  # %<calls|time>
 
 =end code
 

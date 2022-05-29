@@ -61,11 +61,11 @@ get-timing
 Either returns all time information collected since the start of the program or since the last call to `reset-timing` for all grammars, or for the specified grammar only (and all its rules), or for the specified grammar and rule only. What is returned is always a `Hash`.
 
 ```raku
-my %t := reset-timing;                       # %<grammar><rules><calls|time>
+my %t := get-timing;                       # %<grammar><rules><calls|time>
 
-my %tg := reset-timing(MyGrammar);           # %<rules><calls|time>
+my %tg := get-timing(MyGrammar);           # %<rules><calls|time>
 
-my %tgr := reset-timing(MyGrammar, MyRule);  # %<calls|time>
+my %tgr := get-timing(MyGrammar, MyRule);  # %<calls|time>
 ```
 
 AUTHOR
