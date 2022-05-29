@@ -1,6 +1,8 @@
 Revision history for Grammar-Profiler-Simple
 
 {{$NEXT}}
+
+0.04  2022-05-29T12:20:13+02:00
     - Switched to use nano-second timing
     - Also allow class / rules to be used as parameters
     - First version in the zef ecosystem
