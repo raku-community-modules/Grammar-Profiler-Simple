@@ -1,0 +1,6 @@
+Revision history for Grammar-Profiler-Simple
+
+{{$NEXT}}
+    - Switched to use nano-second timing
+    - Also allow class / rules to be used as parameters
+    - First version in the zef ecosystem
